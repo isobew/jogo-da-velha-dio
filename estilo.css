@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    background-color: #353535;
+}
+
+label, h1{
+    color: #f7f7f7;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background: #eee;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: #eee;
+}
+
+.jogador, .vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.jogador {
+    margin-right: 30px;
+}
+
+button {
+    padding-bottom: 5px;
+    margin-top: 15px;
+    width: 100px;
+    height: 40px;
+    background: black;
+    color: #f7f7f7;
+    cursor: pointer;
+    border-radius: 40px;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    /* font-weight: 200; */
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
